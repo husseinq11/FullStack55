@@ -1,0 +1,35 @@
+div{height: 200px;width: 200px;}
+.div1{background-color: aqua;}
+.div2{background-color: rgba(47, 255, 0, 0.855); margin-left: 20%;}
+.div3{background-color: rgb(10, 255, 96); margin-left:40%;}
+.div4{background-color: rgb(120, 42, 255); margin-left:60%;}
+
+@media (max-width :1000px)
+{
+div{height: 200px;width: 200px;}
+.div1{background-color: rgb(111, 0, 255);}
+.div2{background-color: rgba(72, 206, 42, 0.855); margin-left: 20%;}
+.div3{background-color: rgb(25, 4, 51); margin-left:40%;}
+.div4{background-color: rgb(17, 226, 114); margin-left:60%;}
+
+}
+
+@media (max-width :800px)
+{
+div{height: 150px;width: 150px;}
+.div1{background-color: rgb(113, 16, 45);}
+.div2{background-color: rgba(234, 142, 146, 0.855); margin-left: 20%;}
+.div3{background-color: rgb(85, 59, 180); margin-left:40%;}
+.div4{background-color: rgb(9, 216, 113); margin-left:60%;}
+
+}
+
+@media (max-width :700px)
+{
+div{height: 100px;width: 100px;}
+.div1{background-color: rgb(210, 238, 27);}
+.div2{background-color: rgba(50, 159, 25, 0.855); margin-left: 20%;}
+.div3{background-color: rgb(8, 78, 177); margin-left:40%;}
+.div4{background-color: rgb(49, 43, 78); margin-left:60%;}
+
+}
